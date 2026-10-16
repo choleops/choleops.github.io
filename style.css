@@ -1,0 +1,8 @@
+:root{color-scheme:light dark;--a:#c97a00;--g:#2f7d32}
+body{font:17px/1.6 Georgia,serif;max-width:680px;margin:0 auto;padding:1.5rem 1rem 3rem}
+h1,h2,nav{font-family:"Trebuchet MS",sans-serif}
+h1{font-size:2rem;margin:.2em 0;color:var(--a)}h2{font-size:1.2rem;color:var(--g)}
+nav a{margin-right:1rem}a{color:var(--g)}
+.card{display:flex;gap:1rem;align-items:center;border:1px solid rgba(128,128,128,.35);border-left:5px solid var(--a);padding:.8rem 1rem;margin:.8rem 0}
+.card img,.av{width:84px;height:84px;border-radius:50%;object-fit:cover}
+small{opacity:.7}img{max-width:100%}
